@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MemoryActivity"
+
+
+    >
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/interior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="129dp"
+        android:layout_height="126dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="Companion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnMemory1"
+        android:layout_width="112dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/house"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMemory2"
+        android:layout_width="112dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/house"
+        app:layout_constraintEnd_toStartOf="@+id/btnMemory3"
+        app:layout_constraintStart_toEndOf="@+id/btnMemory1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMemory3"
+        android:layout_width="112dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/house"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMemory4"
+        android:layout_width="112dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/house"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMemory1" />
+
+    <Button
+        android:id="@+id/btnMemory5"
+        android:layout_width="112dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/house"
+        app:layout_constraintEnd_toStartOf="@+id/btnMemory6"
+        app:layout_constraintStart_toEndOf="@+id/btnMemory4"
+        app:layout_constraintTop_toBottomOf="@+id/btnMemory2" />
+
+    <Button
+        android:id="@+id/btnMemory6"
+        android:layout_width="112dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/house"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMemory3" />
+
+    <Button
+        android:id="@+id/btnMemory7"
+        android:layout_width="112dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/house"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMemory4" />
+
+    <Button
+        android:id="@+id/btnMemory8"
+        android:layout_width="112dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/house"
+        app:layout_constraintEnd_toStartOf="@+id/btnMemory9"
+        app:layout_constraintStart_toEndOf="@+id/btnMemory7"
+        app:layout_constraintTop_toBottomOf="@+id/btnMemory5" />
+
+    <Button
+        android:id="@+id/btnMemory9"
+        android:layout_width="112dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/house"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMemory6" />
+
+    <Button
+        android:id="@+id/btnMemory10"
+        android:layout_width="112dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/house"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMemory7" />
+
+    <Button
+        android:id="@+id/btnMemory11"
+        android:layout_width="112dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/house"
+        app:layout_constraintEnd_toStartOf="@+id/btnMemory12"
+        app:layout_constraintStart_toEndOf="@+id/btnMemory10"
+        app:layout_constraintTop_toBottomOf="@+id/btnMemory8" />
+
+    <Button
+        android:id="@+id/btnMemory12"
+        android:layout_width="112dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/house"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMemory9" />
+
+
+</android.support.constraint.ConstraintLayout>
