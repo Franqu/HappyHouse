@@ -57,11 +57,13 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, MemoryActivity.class);
         startActivity(intent);
     }
-    public void openSoup(View view)
+
+    public void openSaidPicture(View view)
     {
-        Intent intent = new Intent(MainActivity.this, SoupActivity.class);
+        Intent intent = new Intent(MainActivity.this, SelectSaidPictureActivity.class);
         startActivity(intent);
     }
+
     public void openWhichPicture(View view)
     {
         Intent intent = new Intent(MainActivity.this, WhichPictureActivity.class);

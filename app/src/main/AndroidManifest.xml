@@ -24,6 +24,8 @@
     </activity>
         <activity  android:name=".WhichPictureActivity" >
         </activity>
+        <activity  android:name=".SelectSaidPictureActivity" >
+        </activity>
         <activity  android:name=".SoupActivity" >
         </activity>
     </application>
