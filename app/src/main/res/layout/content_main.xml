@@ -37,51 +37,37 @@
 
     <Button
         android:id="@+id/btnMemory"
-        android:background="@null"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginStart="8dp"
+        android:background="@null"
         android:onClick="openMemory"
+        android:visibility="invisible"
         app:layout_constraintBottom_toTopOf="@+id/btnWhichPicture"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnWhichPicture"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="48dp"
+        android:background="@null"
         android:onClick="openWhichPicture"
-        android:text="JAKI OBRAZEK"
+
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnSelectSaidPicture"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@null"
         android:onClick="openSaidPicture"
-        android:text="Co powiedzial"
+
         app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-         />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginTop="8dp"
-        android:text="USTAWIENIA"
-        android:visibility="invisible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:visibility="invisible" />
-
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>
